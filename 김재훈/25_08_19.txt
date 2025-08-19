@@ -1,0 +1,305 @@
+# 변수
+
+- 변수(Variable) : 값을 저장하는 메모리 공간에 붙인 이름
+- 리터럴(Literal) : 직접 넣은 값 그 자체
+- 선언 방법
+    
+    ```java
+    // 선언만 하기
+    int x;
+    int y;
+    int z;
+    
+    // 한 줄에 여러 변수
+    int a, b, c;
+    
+    // 선언과 동시에 초기화
+    int num1 = 10;
+    int num2 = 20, num3 = 30; // 한 줄에 여러 개 초기화
+    
+    // final 키워드(변경 불가)
+    final int MAX_SIZE = 100;
+    ```
+    
+- 기본 타입은 8개 : `byte`, `char`, `short`, `int`, `long`, `float`, `double`, `boolean`
+- 네이밍 컨벤션
+    - 변수, 메서드 : lowerCamelCase
+    - 상수: UPPER_SNAKE_CASE
+    - 클래스: UpperCamelCase
+
+---
+
+# 변수 타입
+
+- 정수 타입
+    - `byte` : -128 ~ 127
+    - `short` : -32,768 ~ 32,767
+    - `int` : 약 -21억 ~ 약 21억
+    - `long` :
+- 실수 타입
+    - `float` : 7자리 정밀도
+    - `double` : 15자리 정밀도
+- 논리 타입
+    - `boolean` : `true` 또는 `false` 가능. 기본값은 `false`
+- 문자 타입
+    - `char` : 2byte, 음수 불가
+- 이스케이프 시퀀스
+    - `\n` : 줄바꿈
+    - `\t` : 탭
+    - `\”` : 큰따옴표
+    - `\’` : 작은따옴표
+    - `\\` : 백슬래시
+    - `\r` : 캐리지 리턴
+- `String` 타입 (참조 타입)
+    
+    ```java
+    // String은 기본 타입이 아닌 참조 타입
+    String name = "홍길동";
+    String message = "안녕하세요";
+    
+    // 문자열 연결
+    String greeting = name + "님, " + message;
+    System.out.println(greeting); // 홍길동님, 안녕하세요
+    
+    // 문자열과 숫자 연결
+    int age = 20;
+    String info = "나이: " + age + "세";
+    System.out.println(info); // 나이: 20세
+    ```
+    
+
+---
+
+# 연산자
+
+- 산술 연산자
+    - `+` : 덧셈
+    - `-` : 뺄셈
+    - `*` : 곱셈
+    - `/` : 나눗셈
+    - `%` : 나머지
+- 비교 연산자
+    - `==` : 같다
+    - `!=` : 다르다
+    - `<` : 작다
+    - `>` : 크다
+    - `<=` : 작거나 같다
+    - `>=` : 크거나 같다
+- 논리 연산자
+    - `&&` : AND
+    - `||` : OR
+    - `!` : NOT
+    - `^` : XOR (서로 다를 때 true)
+- 대입 연산자
+    
+    ```java
+    int num = 10;
+    num += 5; // num = num + 5 (15)
+    num -= 3; // num = num - 3 (12)
+    num *= 2; // num = num * 2 (24)
+    num /= 4; // num = num / 4 (6)
+    num %= 4; // num = num % 4 (2)
+    ```
+    
+- 증감 연산자
+    
+    ```java
+    int i = 5;
+    System.out.println(++i); // 6 (전위 : 먼저 증가 후 사용)
+    System.out.println(i++); // 6 (후위 : 먼저 사용 후 증가)
+    System.out.println(i); // 7
+    ```
+    
+
+---
+
+# 타입 변환
+
+- 자동 타입 변환(묵시적)
+    
+    ```java
+    byte b = 10;
+    int i = b;  // OK
+    long l = i;  // OK
+    float f = l;  // OK
+    double d = f;  // OK
+    ```
+    
+    ```java
+    // 작은 타입 -> 큰 타입 (자동)
+    byte -> short || char -> int -> long -> float -> double
+    ```
+    
+- 강제 타입 변환(명시적)
+    
+    ```java
+    // 큰 타입 -> 작은 타입 (캐스팅 필요)
+    double d = 3.14;
+    int i = (int) d; // 3
+    byte b = (byte) 128; // -128(오버플로우)
+    ```
+    
+- 산술 승격
+    
+    ```java
+    byte a = 10;
+    byte b = 20;
+    // byte result1 = a + b; // 컴파일 에러
+    int result1 = a + b; // OK (byte + byte -> int)
+    
+    char c1 = 'A';
+    char c2 = 'B';
+    // char result2 = c1 + c2; // 컴파일 에러
+    int result2 = c1 + c2; // OK (char + char -> int)
+    ```
+    
+    - `byte`, `short`, `char` 연산 시 → `int` 로 승격
+    - 피연산자 중 더 큰 타입으로 승격하여 연산
+    - 이유: JVM 은 int 를 기본 연산 단위로 사용하여 성능 최적화
+
+---
+
+# printf
+
+```java
+String name = "홍길동";
+int age = 20;
+double height = 175.5;
+char grade = 'A';
+
+// printf로 포맷팅
+System.out.printf("이름: %s\n", name);
+System.out.printf("나이: %d\n", age);
+System.out.printf("키: %.1fcm\n", height);
+System.out.printf("학점: %c\n", grade);
+
+// 여러 값을 한 번에 출력
+System.out.printf("%s님은 %d세이고, 키는 %.1fcm입니다. \n", name, age, height);
+
+// 숫자 포맷팅
+double pi = 3.141592653;
+System.out.printf("파이: %.2f%n", pi); // 소수점 2자리
+System.out.printf("파이: %.4f%n", pi); // 소수점 4자리
+```
+
+---
+
+# 조건문
+
+## if문
+
+- if문
+    
+    ```java
+    if (조건식) {
+    	// 조건식이 true 일 때 실행
+    }
+    ```
+    
+- if-else문
+    
+    ```java
+    if (조건식) {
+    	// 조건식이 true 일 때 실행
+    } else {
+    	// 조건식이 false 일 때 실행
+    }
+    ```
+    
+- if-else if-else문
+    
+    ```java
+    if (조건식1) {
+    	// 조건식1이 true 일 때 실행
+    } else if (조건식2) {
+    	// 조건식2가 true 일 때 실행
+    } else if (조건식3) {
+    	// 조건식3이 true 일 때 실행
+    } else {
+    	// 모든 조건식이 false 일 때 실행
+    }
+    ```
+    
+- 중첩 if문
+    
+    ```java
+    if (조건식1) {
+    	if (조건식2) {
+    		// 조건식1이 true 이면서, 조건식2가 true 일 때 실행
+    	} else {
+    		// 조건식1이 true 이면서, 조건식2가 false 일 때 실행
+    	}
+    } else {
+    	// 조건식1이 flase 일 때 실행
+    }
+    ```
+    
+
+## switch문
+
+- switch문
+    
+    ```java
+    switch (변수 또는 표현식) {
+    	case 값1: 
+    		// 실행할 코드
+    		break;
+    	case 값2: 
+    		// 실행할 코드
+    		break;
+    	default: 
+    		// 어떤 case에도 해당하지 않을 때
+    }
+    ```
+    
+- break의 중요성
+    
+    ```java
+    int day = 2;
+    
+    switch (day) {
+    	case 1: 
+    		System.out.println("월요일");
+    		// break 없음
+    	case 2:
+    		System.out.println("화요일");
+    		// break 없음
+    	case 3:
+    		System.out.println("수요일");
+    		break;
+    	default:
+    		System.out.println("기타");
+    }
+    ```
+    
+    ```java
+    // 실행 결과
+    화요일
+    수요일
+    ```
+    
+    - break 없으면 해당 case부터 아래의 모든 case가 실행된다.
+- switch 사용 불가능 타입
+    - `long`, `float`, `double`, `boolean`
+
+## 삼항 연산자
+
+- 기본 구조
+    
+    ```java
+    조건식 ? 값1 : 값2
+    ```
+    
+    - 조건식이 **true** 이면 **값1** 반환
+    - 조건식이 **false** 이면 **값2** 반환
+- 중첩 삼항 연산자
+    
+    ```java
+    조건식1 ? 값1 : (조건식2 ? 값2 : (조건식 3 ? 값3 : 값4))
+    ```
+    
+    - 조건식1이 true 이면 값1 반환
+    - 조건식1이 false 이고, 조건식2가 true 이면 값2 반환
+    - 조건식1, 2가 false 이고, 조건식3이 true 이면 값3 반환
+    - 조건식 1, 2, 3 모두 false 이면 값4 반환
+    - 복잡한 중첩은 가독성을 해치므로 더 읽기 쉬운 if-else if 권장
