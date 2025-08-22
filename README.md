@@ -1,5 +1,14 @@
 # 🦁 멋사 부트캠프 5조 회고록 레포지토리
 
+## [2025-08-22] 회고록
+- [📝 김유신](./김유신/08_22.md)
+- [📝 김재훈]()
+- [📝 박성훈](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/java/2025/08/22/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-6%EC%9D%BC%EC%B0%A8.html)
+- [📝 이영선]()
+- [📝 정찬혁]()
+- [📝 최윤혁]()
+- [📝 허준형]()
+
 ## [2025-08-21] 회고록
 - [📝 김재훈 ✅](./김재훈/25_08_21_TIL_5일차.md)
 - [📝 박성훈 ✅](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/java/2025/08/21/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-5%EC%9D%BC%EC%B0%A8.html)
@@ -28,7 +37,6 @@
 
 ## [2025-08-18] 회고록
 
-- [📝 강소령 ✅](./강소령/[멋사%20백엔드%2019기]%20TIL%202일차.md)
 - [📝 김재훈 ✅](./김재훈/[멋사%20백엔드%2019기]%20TIL%202일차.md)
 - [📝 박성훈 ✅](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/java/2025/08/18/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-2%EC%9D%BC%EC%B0%A8.html)
 - [📝 이영선 ✅](./이영선/[멋사%20백엔드%2019기]%20TIL%202일차.md)
