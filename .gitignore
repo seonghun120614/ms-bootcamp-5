@@ -1,2 +1,11 @@
 # for Mac
 **/.DS_Store
+
+# IntelliJ IDEA
+*.iml
+dbnavigator.xml
+misc.xml
+modules.xml
+vsc.xml
+workspace.xml
+.idea/
