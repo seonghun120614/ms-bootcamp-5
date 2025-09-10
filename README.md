@@ -36,7 +36,7 @@
 - [📝 김유신]()
 - [📝 김재훈]()
 - [📝 박성훈 ✅](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/java/2025/09/04/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-15%EC%9D%BC%EC%B0%A8.html)
-- [📝 정찬혁]()
+- [📝 정찬혁](./정찬혁/09-04%20정리본.md)
 - [📝 최윤혁]()
 - [📝 허준형]()
 
