@@ -6,7 +6,7 @@
 - [📝 김유신 ✅](./김유신/09_12.md)
 - [📝 김재훈 ✅](./김재훈/[멋사%20백엔드%2019기]%20TIL%202일차.md)
 - [📝 박성훈 ✅](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/database/2025/09/12/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-20%EC%9D%BC%EC%B0%A8.html)
-- [📝 정찬혁]()
+- [📝 정찬혁](./정찬혁/09-12%20정리본.md)
 - [📝 최윤혁]()
 - [📝 허준형]()
 
@@ -16,7 +16,7 @@
 - [📝 김유신 ✅](./김유신/09_11.md)
 - [📝 김재훈 ✅](./김재훈/25_09_11_TIL_19일차.md)
 - [📝 박성훈 ✅](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/database/2025/09/11/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-19%EC%9D%BC%EC%B0%A8.html)
-- [📝 정찬혁 ✅](./정찬혁/09-10%20정리본.md)
+- [📝 정찬혁 ✅](./정찬혁/09-11%20정리본.md)
 - [📝 최윤혁]()
 - [📝 허준형]()
 
