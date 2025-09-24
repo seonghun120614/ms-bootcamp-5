@@ -15,7 +15,7 @@
 - [📝 김서영]()
 - [📝 김유신]()
 - [📝 김재훈]()
-- [📝 박성훈]()
+- [📝 박성훈 ✅](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/javascript/2025/09/23/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-27%EC%9D%BC%EC%B0%A8.html)
 - [📝 정찬혁]()
 - [📝 최윤혁]()
 - [📝 허준형]()
@@ -23,9 +23,9 @@
 ## [2025-09-22] 회고록
 
 - [📝 김서영]()
-- [📝 김유신](./김유신/09_22.md)
+- [📝 김유신 ✅](./김유신/09_22.md)
 - [📝 김재훈]()
-- [📝 박성훈]()
+- [📝 박성훈 ✅](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/css/2025/09/23/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-26%EC%9D%BC%EC%B0%A8.html)
 - [📝 정찬혁]()
 - [📝 최윤혁]()
 - [📝 허준형]()
@@ -43,7 +43,7 @@
 ## [2025-09-18] 회고록
 
 - [📝 김서영]()
-- [📝 김유신](./김유신/09_18.md)
+- [📝 김유신 ✅](./김유신/09_18.md)
 - [📝 김재훈]()
 - [📝 박성훈 ✅](https://seonghun120614.github.io/seonghun120614/%EB%A9%8B%EC%9F%81%EC%9D%B4%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC/%EB%A9%8B%EC%82%AC/%EB%B0%B1%EC%97%94%EB%93%9C/til/html/2025/09/21/%EB%A9%8B%EC%82%AC-%EB%B0%B1%EC%97%94%EB%93%9C-19%EA%B8%B0-til-24%EC%9D%BC%EC%B0%A8.html)
 - [📝 정찬혁]()
